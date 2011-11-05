@@ -9,14 +9,14 @@ It simply replace the shortcode [key] with the tag kbd and images
 
 == Description ==
 
-This plugin is intended to help those that need to write an article that contains keyboard key combinations. It simply replace the shortcode[key] with the tag <kdb> and display a key image.
+This plugin is intended to help those that need to write an article that contains keyboard key combinations. It simply replace the shortcode [key] with the tag <kdb> and display a key image. For more information visit  [C-Realm site plugin's page](http://crealm.altervista.org/mainblog/keyboard-key-thumbs/)
 
 == Installation ==
 
 
 1. Unzip the file
 2. Copy the plugin directory in your wordpress plugin.
-3. Insert into the shortcode &#91;key&#93;&#91;/key&#93; the key combinations separate by "+" that you would display (e.g. &#91;key&#93;Alt+c&#91;/key&#93;
+3. Insert into the shortcode[key][/key] the key combinations separate by "+" that you would display (e.g.[key]Alt+c[/key];
 
 
 == Frequently Asked Questions ==
