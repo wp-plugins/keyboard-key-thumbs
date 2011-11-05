@@ -19,7 +19,6 @@ This plugin is intended to help those that need to write an article that contain
 3. Insert into the shortcode[key][/key] the key combinations separate by "+" that you would display (e.g.[key]Alt+c[/key];
 
 
-== Frequently Asked Questions ==
  
 
 == Screenshots ==
