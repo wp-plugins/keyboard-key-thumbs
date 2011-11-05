@@ -1,0 +1,43 @@
+span.kdb-shortcode
+{
+    white-space: nowrap;
+    font-size:11px;
+}
+
+kdb.kdb-shortcode
+{
+    height: 23px;
+    line-height: 23px;
+    font-family: sans-serif;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    padding:0;
+    text-align: center;
+    color: #222;
+}
+
+kdb.large
+{
+    background: url(images/keyboard-large.gif);
+    width: 48px;
+}
+
+kdb.char
+{
+    background: url(images/keyboard-small.gif);
+    width: 23px;
+}
+
+kdb.shift
+{
+    background: url(images/keyboard-large-shift.gif);
+    padding-left:5px;
+    width: 48px;
+}
+
+kdb.alt, kdb.control, kdb.middle
+{
+    background: url(images/keyboard-middle.gif);
+    width: 41px;
+}
