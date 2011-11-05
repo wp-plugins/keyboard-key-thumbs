@@ -9,7 +9,7 @@ It simply replace the shortcode [key] with the tag kbd and images
 
 == Description ==
 
-This plugin is intended to help those that need to write an article that contains keyboard key combinations. It simply replace the shortcode &#91;key&#93; with the tag &lt;kdb&gt; and display a key image.
+This plugin is intended to help those that need to write an article that contains keyboard key combinations. It simply replace the shortcode[key] with the tag <kdb> and display a key image.
 
 == Installation ==
 
