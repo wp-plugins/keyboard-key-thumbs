@@ -33,6 +33,8 @@ class Keyboard_Key_Thumbs
         { $class .= " control"; $value=ucfirst($value);}
         else if (preg_match("/alt/i",$value) > 0)
         { $class .= " alt"; $value=ucfirst($value);}
+        else if (preg_match("/enter|invio/i",$value) > 0)
+        { $class .= " enter"; $value=ucfirst($value);}
         else if ( strlen($value) == 1)
         { $class .= " char";}
         else if ( strlen($value) > 1 && strlen($value) < 4)

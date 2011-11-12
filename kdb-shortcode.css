@@ -29,6 +29,14 @@ kdb.char
     width: 23px;
 }
 
+kdb.enter
+{
+    background: url(images/keyboard-large-enter.gif);
+    padding-right:10px;
+    width: 55px;
+    /*text-align: left;*/
+}
+
 kdb.shift
 {
     background: url(images/keyboard-large-shift.gif);
