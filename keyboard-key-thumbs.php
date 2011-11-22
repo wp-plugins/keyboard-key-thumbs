@@ -2,7 +2,7 @@
 /*
 Plugin Name: Keyboard Key Thumbs
 Description: This plugin is intended to help those that need to write an article that contains keyboard key combinations. It simply replace the shortcode [key] with the tag <kdb> and display a key image.
-Version: 0.1
+Version: 0.2
 Author: Shadow silver
 Plugin URI: http://crealm.altervista.org/mainblog/keyboard-key-thumbs/
 Author URI: http://crealm.altervista.org/mainblog
@@ -35,6 +35,10 @@ class Keyboard_Key_Thumbs
         { $class .= " alt"; $value=ucfirst($value);}
         else if (preg_match("/enter|invio/i",$value) > 0)
         { $class .= " enter"; $value=ucfirst($value);}
+        else if (preg_match("/win|windows/i",$value) > 0)
+        { $class .= " win"; $value="<span>"  . ucfirst($value) . "</span>";}
+        else if (preg_match("/back|backspace|indietro/i",$value) > 0)
+        { $class .= " back"; $value="<span>"  . ucfirst($value) . "</span>";}
         else if ( strlen($value) == 1)
         { $class .= " char";}
         else if ( strlen($value) > 1 && strlen($value) < 4)

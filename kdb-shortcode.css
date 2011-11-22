@@ -4,6 +4,7 @@ span.kdb-shortcode
     font-size:11px;
 }
 
+
 kdb.kdb-shortcode
 {
     height: 23px;
@@ -17,24 +18,45 @@ kdb.kdb-shortcode
     color: #222;
 }
 
+kdb.kdb-shortcode span
+{
+    display: block;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+
 kdb.large
 {
-    background: url(images/keyboard-large.gif);
+    background: url(images/keyboard-large.gif) no-repeat;
     width: 48px;
 }
 
 kdb.char
 {
-    background: url(images/keyboard-small.gif);
+    background: url(images/keyboard-small.gif) no-repeat;
     width: 23px;
 }
 
 kdb.enter
 {
-    background: url(images/keyboard-large-enter.gif);
+    background: url(images/keyboard-large-enter.gif) no-repeat;
     padding-right:10px;
     width: 55px;
-    /*text-align: left;*/
+}
+
+kdb.win
+{
+    background: url(images/keyboard-middle-win.gif) no-repeat;
+    width: 29px;
+    overflow: hidden;
+}
+
+kdb.back
+{
+    background: url(images/keyboard-large-backspace.gif) no-repeat;
+    width: 56px;
+    overflow: hidden;
 }
 
 kdb.shift

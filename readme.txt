@@ -28,6 +28,8 @@ This plugin is intended to help those that need to write an article that contain
 
 == Changelog ==
 
+= 0.2 =
+Added support for Enter, Windows, Backspace key
 
 = 0.1 =
 This version support all the char key and the shift,alt,ctrl key
