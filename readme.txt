@@ -3,7 +3,7 @@ Contributors: C-Realm
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=QKGQ9KKTD5EKA&lc=GB&item_name=C%2dRealm&item_number=000001&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted
 Tags: keyboard, kdb, shortcode
 Tested up to: 3.2.1
-Stable tag: 0.1
+Stable tag: 0.2
 
 It simply replace the shortcode [key] with the tag kbd and images
 
